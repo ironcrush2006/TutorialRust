@@ -5,12 +5,16 @@
 //Which helps us to organize our code
 pub mod variables;
 pub mod structs;
+pub mod ownership;
 //main function  
 
 fn main() 
 { 
     //print function 
+    ownership::owner();
+    ownership::mov();
+    ownership::copy();
     variables::var();
     structs::m();
-    println!("Hello World");
+   
 }  

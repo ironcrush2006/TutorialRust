@@ -28,6 +28,7 @@ pub fn m() {
         width:12,
         height:30
     };
+    println!("Executed the structs");
     println!("The area is :{}",rect.area());
     println!("The check is:{}",rect.check(&rect1))
 }
